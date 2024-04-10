@@ -99,7 +99,7 @@ page 50000 "Customers PRUEBACURSO"
                         Message('Voy a dar error');  // Muestra un mensaje en la consola
                         Error('No hay registros');  // Genera un error con el mensaje especificado
                     end
-                    else begin  // Si hay registros en el conjunto
+                    else begin  // Si hay registros en el conjuntoooo
                         x := 0;  // Inicializa una variable x en 0
                         rCustomers.FindSet();  // Encuentra y selecciona el primer registro que cumpla con los filtros establecidos
                         Message('Hay %1 registros', rCustomers.Count());  // Muestra un mensaje con la cantidad de registros encontrados
